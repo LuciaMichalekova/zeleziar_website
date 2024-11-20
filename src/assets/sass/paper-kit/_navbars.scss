@@ -48,13 +48,12 @@
         }
     }
     .navbar-nav{
-        .nav-item .nav-link {
+        .nav-item .nav-link{
             line-height: 1.6;
             margin: $navbar-margin-a;
             padding: $navbar-padding-a;
             opacity: .8;
-            font-size: $font-size-small;
-            text-transform: uppercase;
+            font-size: medium;           ;
             font-weight: 600;
             color: $default-color;
          }
@@ -69,6 +68,7 @@
             margin-top: 1px;
         }
     }
+
     .navbar-collapse{
         & .nav-item{
             & .nav-link{
